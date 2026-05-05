@@ -1,0 +1,19 @@
+{
+  "name": "pipeops-worker-test",
+  "version": "1.0.0",
+  "description": "A tiny background worker with a health endpoint for PipeOps deployment testing.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "worker",
+    "pipeops",
+    "deployment"
+  ],
+  "license": "MIT"
+}
