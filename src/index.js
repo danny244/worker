@@ -66,5 +66,6 @@ function shutdown(signal) {
   });
 }
 
+// process
 process.on("SIGINT", shutdown);
 process.on("SIGTERM", shutdown);
